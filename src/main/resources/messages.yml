@@ -1,0 +1,39 @@
+
+prefix: "&8\u00bb&6 "
+
+no-permission: "&cYou need the permission '{0}' to be able to use this"
+
+command:
+  only-players: "&cOnly players can use this command"
+  request:
+    usage: "&cUsage: &7/request view|<message>"
+    cooldown: "&cPlease wait {0} seconds before submitting another request"
+    accepted: "Thanks for submitting a request! It will be viewed soon."
+    already-exists: "That request has already been made!"
+    
+state:
+  unviewed: "&cNot Viewed"
+  viewed: "&eViewed"
+  completed: "&aCompleted"  
+
+gui:
+  request:
+    title: "&4Requests"
+    item:
+      title: "&e{0}"
+      lore: "&7&oClick to view more"
+  control:
+    title: "&4Request - Settings"
+    info:
+      title: "&cUser: &e{0}"
+      lore: "&cDescription: &e{0}"
+    status:
+      title: "&6Change status to &c{0}"
+      lore: "&7&oModify the request status"
+    delete:
+      title: "&c&lDelete Request"
+      lore: "&cWARNING: This action is irreversbile"
+    back:
+      title: "&9Go Back"
+      lore: "&7&oGo back to the previous menu"
+      

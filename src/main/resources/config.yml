@@ -1,0 +1,2 @@
+# Cooldown in milliseconds, default: 30000 (30 seconds)
+cooldown: 30000

@@ -3,10 +3,8 @@ name: RequestIt
 version: 1.0.0
 description: A plugin to request new features for the server.
 author: Rayzr
-#depend: [CreativelyNamedLib]
-#commands:
-#  requestit:
-#    description: RequestIt main command
-#    aliases: [alias1,alias2]
-#    usage: "/requestit [command]"
-#    permission: RequestIt.main
+depend: [CreativelyNamedLib]
+commands:
+  request:
+    description: RequestIt main command
+    usage: "/request [view [id]]|<message>"
